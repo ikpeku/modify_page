@@ -1,0 +1,79 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.main-content{
+    margin:0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social-icons{
+    margin:30px 0;
+}
+
+.social-icons .twitter{
+    padding: 0 20px;    
+}
+
+.about-me{
+    display: flex;
+    gap:10%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-tittle,
+.about-content{
+    width: 50%;
+}
+
+.chat-now{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin{
+    margin: 8% 0;
+}
+
+.one{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.design-par{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.signature{
+    width: 30%;
+    height: 30%;
+   
+}
+
+.pics-row1{
+    display: flex;
+}
+
+.pics-row2{
+    display: flex;
+}
